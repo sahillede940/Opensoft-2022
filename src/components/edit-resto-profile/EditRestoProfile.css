@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap");
+.editProfile {
+  background-color: white;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.editProfile__heading {
+  font-size: 48px;
+  margin: 12px auto;
+  text-align: center;
+}
+
+.editProfile__images {
+  background-image: url("../../assets/images/lily-banse--YHSwy6uqvk-unsplash\ 1.png");
+  background-size: cover;
+  padding: 90px 0px 90px 180px;
+  position: relative;
+  display: flex;
+}
+@media screen and (max-width: 720px) {
+  .editProfile__images {
+    padding-left: 0px;
+    justify-content: center;
+  }
+}
+
+.editProfile__profilePicture {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: yellow;
+  position: relative;
+  text-align: center;
+}
+.editProfile__editProfilePicture {
+  position: absolute;
+  bottom: 10px;
+  left: 30%;
+  font-size: 18px;
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+.editProfile__editProfilePicture:hover {
+  text-decoration: none;
+  color: #000;
+}
+.editProfile__editCoverPicture {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #000;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+.editProfile__editCoverPicture:hover {
+  text-decoration: none;
+  color: #000;
+}
+.editProfile__form {
+  display: flex;
+  flex-direction: column;
+  padding: 53px 50px 81px;
+}
+
+.editProfile__label {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: #828282;
+}
+.editProfile__inputField {
+  max-height: 73px;
+  border: 1px solid #f0e5eb;
+  border-radius: 5px;
+  padding: 13px 10px;
+  margin-bottom: 50px;
+}
+.editProfile__inputField::placeholder{
+  color: #cac8c8;
+}
+.editProfile__button {
+  align-items: center;
+  padding: 11px 20px;
+  height: 58px;
+  color: #fff;
+
+  background: #7f265b;
+  border-radius: 8px;
+}
+.editProfile__button:hover{
+  background-color: #5c1a42;
+}
+@media screen and (max-width: 720px) {
+  .editProfile__button {
+    flex: 1;
+  }
+}

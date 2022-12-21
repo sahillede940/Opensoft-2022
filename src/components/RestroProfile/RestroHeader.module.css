@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+.container{
+    position: relative;
+    background-color: #000000;
+    height: fit-content;
+    padding: 25px;
+    color: white;
+}
+.header{
+    min-height: 250px;
+    width: 100vw;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    /* word-wrap: break-word; */
+}
+.header *{
+    font-family: "Poppins", sans-serif;
+}
+.header > h2 , .header h4{
+    font-weight: 800 !important;
+}
+
+.restro_name {
+    text-align: left;
+}
+
+.header p{
+    font-weight: 100;
+}
+
+.header > img{
+    height: 200px;
+    width: 200px;
+    display: inline;
+    margin-right: 30px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    width: 35%;
+    margin-top: 20px;
+    text-align: left;
+    word-wrap: break-word;
+}
+@media  only screen and (max-width:300px){
+    .grid{
+        display: grid;
+        grid-template-columns: 2fr 5fr;
+        width: 35%;
+        margin-top: 20px;
+        text-align: left;
+        word-wrap: break-word;
+        font-weight:1;
+        font-size:12px;
+    } 
+    .grid  h4{
+        font-size:18px;
+        
+    }
+    
+}
+.grid > div:nth-child(2){
+    border-left: 1px solid #FFFFFF;
+    padding-left: 20px;
+    word-wrap: break-word;
+}
+.offer{
+    border: 1px solid #646464;
+    min-height: 200px;
+    width: 400px;
+    position: absolute;
+    right: 75px;
+    top: 25px;
+    padding: 15px;
+    text-align: left;
+}
+.offer > h2{
+    position: relative;
+    top: -35px;
+    left: -20px;
+    display: inline;
+    background-color: #000000;
+    padding-right: 10px;
+}
+
+.offer > p > b{
+    background-color: white;
+    color: black;
+    font-weight: 1000;
+    padding: 5px 10px;
+    margin-right: 10px;
+    text-align: left;
+}
+
+@media only screen and (max-width: 1000px){
+    .offer{
+        width: 80vw;
+        margin: 20px auto;
+        position: static;
+    }
+    .grid{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 500px){
+    .header{
+        min-height: 200px;
+    }
+    .header > img{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    }
+}

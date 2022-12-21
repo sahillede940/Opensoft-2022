@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+
+.card {
+    background-color: #fff;
+    border-radius: 12px;
+    width: auto;
+    height: auto;
+    padding: 25px 10px 10px 10px;
+    /* float: left; */
+    margin-top: 20px;
+    text-align: left;
+}
+
+.heading {
+    font-size: 30px;
+    font-family: 'Poppins';
+}
+
+.statusbar {
+    font-size: 24px;
+    font-family: 'Poppins';
+    margin-top: 10px;
+}
+
+.close {
+    margin-left: 10px;
+}
+
+.order {
+    margin-top: 10px;
+}
+
+.title {
+    font-size: 24px;
+    font-family: 'Poppins';
+}
+
+.number {
+    font-size: 24px;
+    font-family: 'Poppins';
+    color: #60b246;
+    margin-left: 10px;
+}

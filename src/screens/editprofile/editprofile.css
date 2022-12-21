@@ -1,0 +1,13 @@
+.commonNavbar__logo {
+    font-family: 'Signika';
+    font-size: 32px;
+    line-height: 94px;
+    letter-spacing: 0.08em;
+    color: #ff0000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 1.8rem;
+  }
+  .commonNavbar__logoFood {
+    color: #60b246;
+    text-align: center;
+  }

@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Marko+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Style+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+.publicHomeScreen__paragraph {
+  font-family: "Marko One", serif;
+  font-size: 36px;
+}
+.publicScreenBanner {
+  background-image: url("../../assets/images/publicHomeBg.png");
+  background-size: cover;
+  padding: 130px 0;
+  font-family: "Style Script", cursive;
+  font-size: 67px;
+}
+.publicScreenBanner__button {
+  padding: 21px 25px;
+  background: linear-gradient(93.41deg, #f17228 -5.63%, #f15e28 100.8%);
+  box-shadow: 0px 5px 8px rgba(222, 151, 0, 0.24),
+    0px 14px 32px rgba(255, 178, 14, 0.29);
+  border-radius: 8px;
+  border: none;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+}

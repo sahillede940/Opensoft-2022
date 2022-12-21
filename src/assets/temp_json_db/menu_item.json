@@ -1,0 +1,30 @@
+{
+	"items": [
+   {
+       "item_id": 1,
+	     "restaurant_id":1,
+	     "item_name": "Veg Burger",
+	     "item_price": 10,
+	     "item_type": false,
+	     "item_image": "https://upload.wikimedia.org/wikipedia/commons/4/47/Hamburger_%28black_bg%29.jpg"
+   },
+   {
+   
+       "item_id": 2,
+	     "restaurant_id":1,
+	     "item_name": "Chicken Tikka",
+	     "item_price": 100,
+	     "item_type": true,
+	     "item_image": "https://glebekitchen.com/wp-content/uploads/2016/12/chickentikkakebab.jpg" 
+   },
+   {
+   
+       "item_id": 3,
+	     "restaurant_id":1,
+	     "item_name": "Chicken",
+	     "item_price": 50,
+	     "item_type": true,
+	     "item_image": "https://glebekitchen.com/wp-content/uploads/2016/12/chickentikkakebab.jpg" 
+   }
+]
+}

@@ -1,0 +1,9 @@
+.media{
+
+}
+@media screen  and (max-width:900px){
+    .media{
+        height:0px;
+        width:0px;
+    }
+}
